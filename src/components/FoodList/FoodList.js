@@ -7,11 +7,11 @@ function FoodList({ foodData }) {
     return (
         <div>
             {Object.entries(groupedProducts).map(([type, products]) => (
-                <div key={type}>
+                <div>
                     <h2 className={styles.typeHeading}>{type}</h2>
                     <div className={styles.productCards}>
                         {products.map((product) => (
-                            <div key={product.Name} className={`${styles.productCard} ${isExpired(product) ? `${styles.expired}` : ''}`}>
+                            <div className={`${styles.productCard} ${isExpired(product) ? `${styles.expired}` : ''}`}>
                                 <img src={product.Image} alt={product.Name} />
                                 <div>
                                     <h3>{product.Name}</h3>
@@ -21,8 +21,7 @@ function FoodList({ foodData }) {
                                             <span key={category}>{category}</span>
                                         ))}
                                     </div>
-                                    <p>
-                                        <strong>Expiration: </strong>{new Date(product.Expiration).toLocaleDateString()}</p>
+                                    <p><strong>Expiration: </strong>{new Date(product.Expiration).toLocaleDateString()}</p>
                                 </div>
                             </div>
                         ))}
