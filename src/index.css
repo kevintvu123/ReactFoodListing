@@ -1,14 +1,10 @@
 * {
   font-family: Verdana, Tahoma, sans-serif;
   color: rgb(34, 34, 34);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 body {
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
 }

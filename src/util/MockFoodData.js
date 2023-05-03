@@ -14,7 +14,7 @@ function useMockFoodData() {
                     "Cold",
                     "Fruit"
                 ],
-                "Image": "*plugin any image url here*",
+                "Image": "https://images-prod.healthline.com/hlcmsresource/images/AN_images/orange-juice-1296x728-feature.jpg",
                 "Description": "It’s quite juicy.",
                 "Expiration": "2025-06-23T23:00:00Z"
 
@@ -26,7 +26,7 @@ function useMockFoodData() {
                     "Hot",
                     "Potato"
                 ],
-                "Image": "*plugin any image url here*",
+                "Image": "https://media.istockphoto.com/id/479515172/photo/hot-potato.jpg?s=612x612&w=0&k=20&c=txXZeIRPh6kYq1-GEfvAzVmsdaFYItqCkhVL8PhGM4Q=",
                 "Description": "It’s quite hot.",
                 "Expiration": "2025-06-23T23:00:00Z"
             },
@@ -37,7 +37,7 @@ function useMockFoodData() {
                     "Cold",
                     "Potato"
                 ],
-                "Image": "*plugin any image url here*",
+                "Image": "https://previews.123rf.com/images/ragsac/ragsac1002/ragsac100200041/6439544-cold-potato-in-snow-concept-for-cold-cash.jpg",
                 "Description": "It’s quite cold.",
                 "Expiration": "2023-03-23T23:00:00Z"
             }
