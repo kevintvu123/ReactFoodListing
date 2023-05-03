@@ -106,7 +106,7 @@ function useMockFoodData() {
         ]
 
         const fetchFoods = async () => {
-            // Figured I would add a commented out structure for fetching
+            // Here is a commented out structure for how I would fetch:
             // const response = await fetch("/api/foods");
             // const data = await response.json();
             // setFoodData(data);
